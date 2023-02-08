@@ -1,0 +1,117 @@
+.hero {
+
+    width: 100%;
+    height: 100%;
+}
+
+/* .hero .content {
+    position: absolute;
+    transform: translate(-50%, -50%s);
+    top: 50%;
+    left: 50%;
+    text-align: center;
+} */
+
+.mask {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+
+.mask::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    opacity: 0.5;
+}
+
+.intro-img {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.content {
+    margin-right: 10px;
+    color: red;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+}
+
+.porfile-photo {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    position: absolute;
+    top: 150px;
+    right: 200px;
+}
+
+.porfile-photo img {
+    width: 100%;
+    height: 100%;
+
+}
+
+.profession-box {
+    width: auto;
+    height: 70px;
+    overflow: hidden;
+    margin-bottom: 10px;
+
+}
+
+.profession-box h1 {
+    width: auto;
+    height: 70px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.hero .content h1 {
+    font-size: 3rem;
+    padding: 0.6rem 0 1.5rem;
+
+}
+
+
+.hero .content p {
+    font-size: 50px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+.btn {
+    margin-right: 10px;
+}
+
+
+/* responsivenesss work */
+
+@media screen and (max-width:640px) {
+
+    .hero .content h1 {
+        font-size: 1.5rem;
+    }
+
+    .hero .content p {
+        font-size: 1.4rem;
+    }
+
+    .porfile-photo {
+        /* visibility: hidden; */
+        top: 15%;
+        right: 20%;
+        width: 200px;
+        height: 200px;
+    }
+
+}

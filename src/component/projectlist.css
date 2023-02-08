@@ -1,0 +1,126 @@
+.projects {
+    width: 100%;
+    padding: 6re 1rem;
+    background-color: rgb(41, 40, 40);
+}
+
+.card-container {
+    /* max-width: 1140px; */
+    margin: auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+    background-color: rgb(22, 22, 22);
+}
+
+
+
+.project-img img {
+    padding-top: 5px;
+    width: 98%;
+    height: 98%;
+    opacity: 80%;
+}
+
+.project-img :hover {
+    opacity: 100%;
+    scale: 1.05;
+    transition: 0.5s ease-in-out;
+}
+
+
+a img {
+    width: 20px;
+    height: 20px;
+}
+
+.card {
+    max-width: 350px;
+    min-width: 250px;
+    min-height: 400px;
+    max-height: 450px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: black;
+}
+
+.card h5 {
+    border-bottom: 1px solid yellow;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    color: aliceblue;
+}
+
+.card p {
+    padding: 0.2rem;
+    color: aliceblue;
+    padding: 5px 0;
+}
+
+.project-link {
+    margin: 1rem 0;
+    width: 90%;
+    padding: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: rgb(236, 236, 11);
+    color: black;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.project-link:hover {
+    background-color: rgba(177, 177, 177, 0.336);
+    color: #fff;
+    transition: 0.3s;
+
+}
+
+.bar {
+    border: 1px solid yellow;
+    width: 30%;
+    /* text-align: center; */
+    margin: 1.5rem;
+    display: block;
+}
+
+.btc {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}
+
+@media screen and (max-width:1000px) {
+
+    .card-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media screen and (max-width:750px) {
+    p {
+        font-size: small;
+    }
+
+    .card {
+
+        /* max-height: 10px; */
+        height: 250px;
+
+    }
+
+    .card-container {
+        /* max-width: 70%; */
+        grid-template-columns: 1fr;
+    }
+
+}
