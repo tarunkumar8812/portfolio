@@ -1,10 +1,11 @@
-import React, { useRef, useState, useContext } from 'react'
+import React, { useRef, useState } from 'react'
 import './mailme.css'
 
 import emailjs from '@emailjs/browser'
+
 const Mailme = () => {
 
-    const [user, setUser] = useState({ name: "", subject: "",email: "", message: ""})
+    // const [user, setUser] = useState({ name: "", subject: "",email: "", message: ""})
 
 
     const formRef = useRef()
@@ -39,9 +40,9 @@ const Mailme = () => {
                         <h3 className='c-desc'>
                             <b> What is your story? </b>Get in touch. always freelancing if the right comes along.
                         </h3>
-                      
+
                         {/* ------- form is staring here --------- */}
-                        <form   ref={formRef} onSubmit={handleSubmit}>
+                        <form ref={formRef} onSubmit={handleSubmit}>
                             <input type='text' name='user_name' className='' placeholder='Name' autoComplete='off' ></input>
                             <input type='text' name='user_subject' className='' placeholder='Subject' autoComplete='off' ></input>
                             <input type='text' name='user_email' className='' placeholder='Your Email' autoComplete='off'  ></input>

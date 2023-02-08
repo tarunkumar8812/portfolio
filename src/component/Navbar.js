@@ -5,7 +5,6 @@ import menu from "../imgs/menu.png"
 import cross from "../imgs/x-button.png"
 import resume from "../assets/Resume.pdf"
 import downloadIcon from "../imgs/downloadIcon.png"
-// import { FaBars } from "react-icon/fa"
 
 const Navbar = () => {
 
