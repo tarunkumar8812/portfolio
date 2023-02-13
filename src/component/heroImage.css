@@ -61,19 +61,48 @@
 
 }
 
-.profession-box {
-    width: auto;
-    height: 70px;
+.sliding {
+    height: 50px;
+    margin: 12px 0;
     overflow: hidden;
-    margin-bottom: 10px;
+    /* background-color: blueviolet; */
+    color: red;
 
 }
 
-.profession-box h1 {
+.profession-box {
+    height: 50px;
+    /* background-color: blueviolet; */
+
+    animation: move 8s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+
+    25% {
+        transform: translateY(-50px);
+    }
+
+    50% {
+        transform: translateY(-100px);
+    }
+
+    75% {
+        transform: translateY(-150px);
+    }
+
+    100% {
+        transform: translateY(-150px);
+
+    }
+}
+
+
+.item {
     width: auto;
-    height: 70px;
-    overflow: hidden;
-    margin-bottom: 10px;
+    height: 50px;
+    display: flex;
+    align-items: center;
 }
 
 .hero .content h1 {
@@ -91,6 +120,7 @@
 
 .btn {
     margin-right: 10px;
+
 }
 
 

@@ -29,10 +29,15 @@ color: gold;
     width: 20px;
     height: 20px;
 }
+/* #resume:hover{
 
+text-transform: capitalize;
+
+} */
 
 .nav-menu li a:hover {
     color: gold;
+    
 }
 
 .nav-menu li a {

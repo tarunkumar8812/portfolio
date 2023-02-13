@@ -22,6 +22,14 @@ const Navbar = () => {
 
     window.addEventListener("scroll", changeColor)
 
+    function mouseHover() {
+        window.document.getElementById("resume").innerHTML = "Download"
+    }
+    function leave() {
+        window.document.getElementById("resume").innerHTML = "Resume"
+    }
+
+
 
     return (
         <div className={color ? "header header-bg" : "header"}>
@@ -33,7 +41,9 @@ const Navbar = () => {
                 <li><Link to="/project">Project</Link></li>
                 <li><Link to="/about">About</Link></li>
                 <li><Link to="/contact">Contact</Link></li>
-                <li><a href={resume} download="Resume_Tarun_Kumar">Resume <img className='resumePdf' src={downloadIcon} alt='download'></img></a></li>
+                <li ><a id='resume' onMouseLeave={leave} onMouseOver={mouseHover} href={resume} download="Resume_Tarun_Kumar">Resume
+                    {/* <img className='resumePdf' src={downloadIcon} alt='download'></img> */}
+                </a></li>
             </ul>
             <div className='hamburger' onClick={handleClick} >
                 {click ? <img className='cross' src={cross} alt="cross"></img> : <img className='menu' src={menu} alt="menu"></img>}
