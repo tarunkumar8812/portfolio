@@ -1,6 +1,7 @@
 import React from 'react'
 import "./projectlist.css"
 import linking from '../imgs/linking.png'
+import BookingAppImg from '../assets/bookingApp.jpg'
 
 
 const projectData = [
@@ -52,6 +53,14 @@ const projectData = [
     desc: "Created an Mini Blogging website's backend partwith multiple APIs based on users, author . Here use JWT authentication for protected APIs and also use AWS. Like blogging website.",
     stack: "Tech Stack: JavaScript, NodeJS, MongoDB."
   },
+  {
+    id: 6,
+    img: BookingAppImg,
+    link: "https://github.com/tarunkumar8812/BookingApp",
+    title: "Booking App",
+    desc: "Created an fullstack Hotel Booking website's and in backend partwith multiple APIs based on users, hotel, and room. Here use JWT authentication for protected APIs and also use AWS.",
+    stack: "Tech Stack: JavaScript, NodeJS, MongoDB, ReactJS."
+  }
 ]
 
 
