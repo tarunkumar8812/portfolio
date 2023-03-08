@@ -56,7 +56,7 @@ const projectData = [
   {
     id: 6,
     img: BookingAppImg,
-    link: "https://github.com/tarunkumar8812/BookingApp",
+    link: "https://bookingclient.vercel.app/",
     title: "Booking App",
     desc: "Created an fullstack Hotel Booking website's and in backend partwith multiple APIs based on users, hotel, and room. Here use JWT authentication for protected APIs and also use AWS.",
     stack: "Tech Stack: JavaScript, NodeJS, MongoDB, ReactJS."
