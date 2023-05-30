@@ -65,7 +65,7 @@ const Footer = () => {
 
                     <div className='info'>
                             <h4>About me</h4>
-                            <p>This is me Tarun Kumar. NodeJS and Backend Developer.</p>
+                            <p>This is me Tarun Kumar. NodeJS and ReactJS FullStack Developer.</p>
                             <p>I enjoy discussing new projects and design challanges</p>
                             <br />
                             <p>Copyright 2022. All rights resevered</p>

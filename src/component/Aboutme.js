@@ -46,18 +46,6 @@ const Aboutme = () => {
                         </div>
                     </div>
 
-
-                    <div className='skill-name'>
-                        <div className='img-container'>
-                            <img src={postman} alt='postman'></img>
-                            <p>POSTMAN</p>
-                        </div>
-                        <div className='m-container'>
-                            <sapn className='m-8'></sapn>
-                        </div>
-                    </div>
-
-
                     <div className='skill-name'>
                         <div className='img-container'>
                             <img src={node} alt='nodejs'></img>
@@ -67,18 +55,6 @@ const Aboutme = () => {
                             <sapn className='m-9' ></sapn>
                         </div>
                     </div>
-
-
-                    <div className='skill-name'>
-                        <div className='img-container'>
-                            <img src={redis} alt=''></img>
-                            <p>REDIS</p>
-                        </div>
-                        <div className='m-container'>
-                            <sapn className='m-7'></sapn>
-                        </div>
-                    </div>
-
 
                     <div className='skill-name'>
                         <div className='img-container'>
@@ -90,6 +66,25 @@ const Aboutme = () => {
                         </div>
                     </div>
 
+                    <div className='skill-name'>
+                        <div className='img-container'>
+                            <img src={postman} alt='postman'></img>
+                            <p>POSTMAN</p>
+                        </div>
+                        <div className='m-container'>
+                            <sapn className='m-8'></sapn>
+                        </div>
+                    </div>
+
+                    <div className='skill-name'>
+                        <div className='img-container'>
+                            <img src={mysql} alt='mysql'></img>
+                            <p>MY-SQL</p>
+                        </div>
+                        <div className='m-container'>
+                            <sapn className='m-9' ></sapn>
+                        </div>
+                    </div>
 
                     <div className='skill-name'>
                         <div className='img-container'>
@@ -145,17 +140,15 @@ const Aboutme = () => {
                         </div>
                     </div>
 
-
                     <div className='skill-name'>
                         <div className='img-container'>
-                            <img src={mysql} alt='mysql'></img>
-                            <p>MY-SQL</p>
+                            <img src={redis} alt=''></img>
+                            <p>REDIS</p>
                         </div>
                         <div className='m-container'>
-                            <sapn className='m-7' ></sapn>
+                            <sapn className='m-7'></sapn>
                         </div>
                     </div>
-
 
                 </div>
             </div>
