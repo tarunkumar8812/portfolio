@@ -127,6 +127,15 @@ div {
     animation-duration: 4s;
 }
 
+.m-4 {
+    width: 40%;
+    height: 100%;
+    background-color: rgb(204, 204, 204);
+    transition: 1s ease-in-out;
+    animation-name: m-4;
+    animation-duration: 4s;
+}
+
 
 @keyframes m-9 {
     from {
@@ -155,6 +164,15 @@ div {
 
     to {
         width: 70%;
+    }
+}
+@keyframes m-4 {
+    from {
+        width: 0%;
+    }
+
+    to {
+        width: 40%;
     }
 }
 

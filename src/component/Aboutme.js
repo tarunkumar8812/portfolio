@@ -5,6 +5,7 @@ import postman from "../imgs/postman.jpg"
 import node from "../imgs/node.png"
 import redis from "../imgs/redis.png"
 import mongo from "../imgs/mongo.png"
+import python from "../imgs/python.png"
 import aws from "../imgs/aws.png"
 import git from "../imgs/git.png"
 import html from "../imgs/html.jpg"
@@ -147,6 +148,16 @@ const Aboutme = () => {
                         </div>
                         <div className='m-container'>
                             <sapn className='m-7'></sapn>
+                        </div>
+                    </div>
+                   
+                    <div className='skill-name'>
+                        <div className='img-container'>
+                            <img src={python} alt=''></img>
+                            <p>PYTHON</p>
+                        </div>
+                        <div className='m-container'>
+                            <sapn className='m-4'></sapn>
                         </div>
                     </div>
 
