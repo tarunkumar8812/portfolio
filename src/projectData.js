@@ -1,6 +1,7 @@
 
 
 import BookingAppImg from './assets/bookingApp.jpg'
+import noteApp from './assets/noteApp.jpg'
 // import BookingAppImg from '../assets/'
 const projectData = [
     {
@@ -54,6 +55,14 @@ const projectData = [
     },
     {
         id: 6,
+        img: noteApp,
+        link: "https://noteclient-khaki.vercel.app/",
+        title: "Noting App",
+        desc: "Created an fullstack Noting Application and in backend multiple CRUD Operations implemented like Create, Read, Update, Delete",
+        stack: "Tech Stack: JavaScript, NodeJS, MySQL, ReactJS."
+    },
+    {
+        id: 7,
         img: BookingAppImg,
         link: "https://bookingclient.vercel.app/",
         title: "Booking App",
