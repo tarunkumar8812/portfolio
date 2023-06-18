@@ -36,7 +36,7 @@ const Navbar = () => {
             <Link to='/'>
                 <h1>Portfolio.</h1>
             </Link>
-            <ul className={!click ? 'nav-menu' : "nav-menu"} onClick={handleClick} >
+            <ul className={!click ? 'nav-menu' : "nav-menu avtive"} onClick={handleClick} >
                 <li><NavLink to="/home">Home</NavLink></li>
                 <li><NavLink to="/project">Project</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>

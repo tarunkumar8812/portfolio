@@ -23,7 +23,6 @@ h1:hover {
 }
 
 .nav-menu li {
-    /* padding: 0.5rem 1rem; */
     margin: 15px;
 }
 
@@ -37,11 +36,6 @@ h1:hover {
     height: 20px;
 }
 
-/* #resume:hover{
-
-text-transform: capitalize;
-
-} */
 
 .nav-menu li a:hover {
     color: gold;
@@ -81,17 +75,18 @@ text-transform: capitalize;
 
     }
 
-    .nav-menu.active {
+    .nav-menu.avtive {
         left: 0;
         transition: 0.5s;
     }
 
+ 
     .nav-menu li {
         padding: 1rem 0;
     }
 
     .nav-menu li a {
-        padding: 2rem;
+        padding: 1rem;
     }
 
     .hamburger {
