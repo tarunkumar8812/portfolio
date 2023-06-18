@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, NavLink } from 'react-router-dom'
 import "./navbar.css"
 import menu from "../imgs/menu.png"
 import cross from "../imgs/x-button.png"
@@ -36,11 +36,11 @@ const Navbar = () => {
             <Link to='/'>
                 <h1>Portfolio.</h1>
             </Link>
-            <ul className={!click ? 'nav-menu' : "nav-menu avtive"} onClick={handleClick} >
-                <li><Link to="/home">Home</Link></li>
-                <li><Link to="/project">Project</Link></li>
-                <li><Link to="/about">About</Link></li>
-                <li><Link to="/contact">Contact</Link></li>
+            <ul className={!click ? 'nav-menu' : "nav-menu"} onClick={handleClick} >
+                <li><NavLink to="/home">Home</NavLink></li>
+                <li><NavLink to="/project">Project</NavLink></li>
+                <li><NavLink to="/about">About</NavLink></li>
+                <li><NavLink to="/contact">Contact</NavLink></li>
                 <li ><a id='resume' onMouseLeave={leave} onMouseOver={mouseHover} href={resume} download="Resume_Tarun_Kumar">Resume
                     {/* <img className='resumePdf' src={downloadIcon} alt='download'></img> */}
                 </a></li>

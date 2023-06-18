@@ -9,9 +9,10 @@
     z-index: 10;
 }
 
-h1:hover{
-color: gold;
+h1:hover {
+    color: gold;
 }
+
 .header-bg {
     background-color: rgba(0, 0, 0, 0.85);
     transition: 0.5s;
@@ -22,13 +23,20 @@ color: gold;
 }
 
 .nav-menu li {
-    padding: 1rem;
+    /* padding: 0.5rem 1rem; */
+    margin: 15px;
+}
+
+.active {
+    border: 1px solid white;
+    padding: 5px 10px;
 }
 
 .nav-menu li .resumePdf {
     width: 20px;
     height: 20px;
 }
+
 /* #resume:hover{
 
 text-transform: capitalize;
@@ -37,7 +45,7 @@ text-transform: capitalize;
 
 .nav-menu li a:hover {
     color: gold;
-    
+
 }
 
 .nav-menu li a {
@@ -73,7 +81,7 @@ text-transform: capitalize;
 
     }
 
-    .nav-menu.avtive {
+    .nav-menu.active {
         left: 0;
         transition: 0.5s;
     }

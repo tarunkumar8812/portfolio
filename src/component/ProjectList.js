@@ -3,8 +3,8 @@ import "./projectlist.css"
 import linking from '../imgs/linking.png'
 import projectData from '../projectData.js'
 
-projectData.sort((a, b) => { return b.id - a.id })
-
+// projectData.sort((a, b) => { return b.id - a.id })
+projectData.reverse()
 
 const ProjectList = () => {
   return (
