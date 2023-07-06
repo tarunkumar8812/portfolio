@@ -3,7 +3,7 @@ import { Link, NavLink } from 'react-router-dom'
 import "./navbar.css"
 import menu from "../imgs/menu.png"
 import cross from "../imgs/x-button.png"
-import resume from "../assets/Resume.pdf"
+// import resume from "../assets/Resume.pdf"
 // import downloadIcon from "../imgs/downloadIcon.png"
 
 const Navbar = () => {
@@ -41,7 +41,11 @@ const Navbar = () => {
                 <li><NavLink to="/project">Project</NavLink></li>
                 <li><NavLink to="/about">About</NavLink></li>
                 <li><NavLink to="/contact">Contact</NavLink></li>
-                <li ><a id='resume' onMouseLeave={leave} onMouseOver={mouseHover} href={resume} download="Resume_Tarun_Kumar">Resume
+                <li ><a id='resume' onMouseLeave={leave} onMouseOver={mouseHover}
+                    target='#'
+                    href={'https://drive.google.com/drive/u/0/folders/1nR9N7Jr1hxqxwZ1SdKv5DS0H01JrTHYS?lfhs=2'}
+                    // href={resume}
+                    download="Resume_Tarun_Kumar">Resume
                     {/* <img className='resumePdf' src={downloadIcon} alt='download'></img> */}
                 </a></li>
             </ul>
