@@ -16,8 +16,8 @@ const HeroImage = () => {
                 <p>HI, I'M TARUN KUMAR..</p>
                 <div className="sliding">
                 <div className="profession-box">
-                    <h1 className="item">NodeJS Developer</h1>
                     <h1 className="item">React Developer</h1>
+                    <h1 className="item">NodeJS Developer</h1>
                     <h1 className="item">Freelancer </h1>
                     <h1 className="item">FullStack Developer</h1>
                 </div>
