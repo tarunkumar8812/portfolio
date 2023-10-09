@@ -19,7 +19,7 @@ const Footer = () => {
                         <div className='location'>
                             <img className='imgs' src={home} alt="img"></img>
                             <span className='address'>
-                                <p>Dakshin Puri, New Delhi-110062</p>
+                                <p>Noida, Uttar Pradesh</p>
                             </span>
                         </div>
                         <div className='phone'>
@@ -28,14 +28,14 @@ const Footer = () => {
                         </div>
                         <div className='email'>
                             <img className='imgs' src={gmail} alt="img"></img>
-                            <p>tarunkumarkoli.tk@gmail.com</p>
+                            <p>tarunkolidev@gmail.com</p>
                         </div>
                         {/* <div className='info'>
                             <h4>About the company</h4>
                             <p>This is me Tarun Kumar. CEO & Founder of This company.</p>
                             <p>I enjoy discussing new projects and design challanges</p>
                             <br />
-                            <p>Copyright 2022. All rights resevered</p>
+                            <p>Copyright 2023. All rights resevered</p>
                             <p>Terms & Conditions</p>
                         </div> */}
                         <div className='social-media'>
@@ -49,7 +49,7 @@ const Footer = () => {
                                 <img className='imgs' src={instagram} alt="instagram"></img>
                             </a>
 
-                            <a href="https://www.linkedin.com/in/tarun-kumar-aba208201/" >
+                            <a href="https://www.linkedin.com/in/tarun-kumar-232702295/" >
                                 <img className='imgs' src={linkedin} alt="linkedin"></img>
                             </a>
 
