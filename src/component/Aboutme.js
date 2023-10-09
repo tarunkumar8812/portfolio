@@ -24,7 +24,7 @@ const Aboutme = () => {
                     <h2>About Me</h2>
                     <p>
 
-                        Hello, I am Tarun Kumar, having Gradution Degree from Delhi Univercity and Civil Engineer Diploma from G.B. Pant Institute of Technology, Okhla Delhi in 2017. I have experience in teaching and running a coaching center, and have taught over 200+ students in the last 2 years. I am currently a freelancer, and Trainee at functionUp Bootcamp for FullStack Web development using JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB, MySQL, and also AWS S3, Redis, HTML & CSS. I have completed various projects such as Booking Website, book management system, Note Making App, e-commerce website, blogging site, URL shortener, and college internship portal using these technologies.
+                        Hello, I am Tarun Kumar, having Gradution Degree from Delhi Univercity. I have experience in teaching and running a coaching center, and have taught over 200+ students in the last 2 years. I am currently a freelancer, and Trainee at functionUp Bootcamp for FullStack Web development using JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB, MySQL, and also AWS S3, Redis, HTML & CSS. I have completed various projects such as Booking Website, book management system, Note Making App, e-commerce website, blogging site, URL shortener, and college internship portal using these technologies.
                     </p>
 
                     <p>
