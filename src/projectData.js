@@ -49,18 +49,17 @@ const projectData = [
         stack: "Tech Stack: JavaScript, NodeJS, MySQL, ReactJS."
     },
     {
-        img: BookManagement,
-        link: "https://readersclub.netlify.app",
-        title: "Book Shoping Website",
-        desc: "Created an FullStack Book Management website's backend partwith multiple APIs based on products, users, books and auther. Here use JWT authentication for protected APIs and also use AWS. Like kindle.",
-        stack: "Tech Stack: JavaScript, NodeJS, ReactJs, MongoDB."
-    },
-    {
         img: BookingAppImg,
         link: "https://bookingclient.vercel.app/",
         title: "Booking App",
         desc: "Created an fullstack Hotel Booking website's and in backend partwith multiple APIs based on users, hotel, and room. Here use JWT authentication for protected APIs and also use AWS.",
         stack: "Tech Stack: JavaScript, NodeJS, MongoDB, ReactJS."
+    }, {
+        img: BookManagement,
+        link: "https://readersclub.vercel.app/",
+        title: "Online Book Store",
+        desc: "Created an FullStack Book Management website's backend partwith multiple APIs based on products, users, books and auther. Here use JWT authentication for protected APIs and also use AWS. Like kindle.",
+        stack: "Tech Stack: JavaScript, NodeJS, ReactJs, MongoDB."
     }
 ]
 
