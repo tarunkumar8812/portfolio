@@ -22,7 +22,7 @@ const Navbar = () => {
 
     return (
         <div className={color ? "header header-bg" : "header"}>
-            <a href='#home'><h1 className='logo'>Tarun.</h1></a>
+            <a href='#home'><h1 className='logo'>T a r u n.</h1></a>
             <ul
                 className={!click ? 'nav-menu' : "nav-menu avtive"}
                 onClick={handleClick} >

@@ -8,7 +8,7 @@ const Home = () => {
             <p>Full-Stack Web Developer</p>
             <h1>Hi, I'm </h1>
             <button className='btn'><a href={resume} download >Download CV</a></button>
-            <img src='' alt='home-img'></img>
+            {/* <img src='' alt='home-img'></img> */}
         </div>
     )
 }

@@ -1,0 +1,85 @@
+.contact-container {
+    background-color: rgb(0, 0, 0);
+    padding: 0 10px;
+    position: relative;
+
+}
+.row{
+    color: white;
+    /* background-color: red; */
+    padding: 50px ;
+    display: flex;
+    gap: 55px;
+    flex-wrap: wrap;
+}
+.contact-left{
+    width: 350px;
+}
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.social-icons a, p{
+    text-decoration: none;
+    margin: 10px 0;
+    color: white;
+    display: flex;
+    align-self: flex-start;
+    font-size: 18px;
+}
+.icons{
+    width: 30px;
+    margin-right: 20px;
+    transition: 0.5s;
+}
+.icons:hover{
+  scale: 1.15;
+}
+
+
+.contact-right  form{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.input{
+    width: 400px;
+    padding: 5px;
+    outline: none;
+    border-radius: 5px;
+    /* background: #7e7e7e; */
+}
+
+form button{
+    background-color: yellow;
+    border-radius: 5px;
+    padding: 5px 5px;
+    border: 2px solid white;
+    transition: 0.3s;
+    text-decoration: none;
+    cursor: pointer;
+
+}
+
+form button:hover{
+    background-color: rgb(58, 58, 58);
+    color:#fff;
+   
+}
+
+.success{
+    color: green;
+}
+.error{
+    color: red;
+}
+
+
+@media screen and (max-width:600px) {
+    .input{
+        width: 350px;
+    }
+}
