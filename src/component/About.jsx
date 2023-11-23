@@ -36,11 +36,11 @@ const About = () => {
                     </div>
                     <div className='about-col-2'>
                         <h1 className='sub-title'>About Me</h1>
-                        <p>Hello, I am Tarun Kumar, having Gradution Degree from Delhi Univercity. I have experience in teaching and running a coaching center, and have taught over 300+ students in the last 2 years. I am currently a freelancer, and Trainee at functionUp Bootcamp for FullStack Web development using JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB, MySQL, and also AWS S3, Redis, HTML & CSS. I have completed various projects such as Booking Website, book management system, Note Making App, e-commerce website, blogging site, URL shortener, and college internship portal using these technologies.</p>
+                        <p>Hello, I am Tarun Kumar, having Gradution Degree from Delhi Univercity and Civil Engineering Diploma. I worked as Site Engineer and also have experience in teaching and have taught over 300+ students in Xellent Coaching Center. I am currently a Full-Stack Web Developer, and Trainee at functionUp Bootcamp for FullStack Web development using JavaScript, NodeJS, ReactJS, ExpressJS, MongoDB, MySQL, and also AWS S3, Redis, Material-UI, HTML & CSS. I have completed various projects such as Booking Website, Online Book Store, Note Making App, e-commerce website, blogging site, URL shortener, and college internship portal.</p>
 
                         <br />
                         <p>
-                            My goal is to work with a reputed company for a successful career in the tech field. I am confident that my skills and project experience make me a strong fit for this role. I am a self-motivated, hard-working, and disciplined individual with strong communication and problem-solving skills. My greatest strength is my creativity, I am confident that I can make a valuable contribution to your company and believe that my skills and project experience make me a strong fit for this role in backend development. Thank you for considering me for this opportunity. I look forward to your response.
+                            My goal is to work with a reputed company for a successful career in the Web Development field. I am confident that my skills and project experience make me a strong fit for this role. I am a self-motivated, hard-working, and disciplined individual with strong communication and problem-solving skills. I am confident that I can make a valuable contribution to your company and believe that my skills and project experience make me a strong fit for this role in Web Development. Thank you for considering me for this opportunity.
                         </p>
 
 
@@ -83,7 +83,8 @@ const About = () => {
                             <ul>
                                 <li><span>2018</span> <br /> Bachelor of ARTs</li>
                                 <li><span>2017</span> <br /> Diploma in Civil Engineering</li>
-                                <li><span>2013</span> <br /> 12th from C.B.S.E</li>
+                                <li><span>2013</span> <br /> 12th from C.B.S.E Board, Delhi</li>
+                                {/* <li><span>2011</span> <br /> 10th from C.B.S.E Board, Delhi</li> */}
 
                             </ul>
                         </div>
