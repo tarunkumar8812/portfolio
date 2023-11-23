@@ -1,0 +1,118 @@
+.projects {
+    width: 100%;
+    padding: 6re 1rem;
+    background-color: rgb(41, 40, 40);
+
+}
+
+.card-container {
+    margin: auto;
+    padding: 80px;
+    background-color: rgb(22, 22, 22);
+    display: flex;
+    gap: 100px;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: start; */
+}
+
+
+.card {
+
+    height: 400px;
+    width: 300px;
+    min-height: 400px;
+    min-width: 300px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: black;
+}
+
+.project-img {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+}
+
+.project-img img {
+    padding-top: 5px;
+    width: 98%;
+    height: 98%;
+    opacity: 80%;
+}
+
+.project-img :hover {
+    opacity: 100%;
+    scale: 1.05;
+    transition: 0.5s ease-in-out;
+}
+
+
+a img {
+    width: 20px;
+    height: 20px;
+}
+
+
+
+.details {
+    width: 100%;
+    height: 40%;
+    overflow-y: hidden;
+}
+
+
+.card h5 {
+    border-bottom: 1px solid yellow;
+    font-size: 1.5rem;
+    padding-top: 0.5rem;
+    color: aliceblue;
+}
+
+.details p {
+    color: aliceblue;
+
+
+}
+
+.project-link {
+    /* margin: 1rem 0; */
+    width: 90%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: rgb(236, 236, 11);
+    color: black;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.project-link:hover {
+    background-color: rgba(177, 177, 177, 0.336);
+    color: #fff;
+    transition: 0.3s;
+
+}
+
+.bar {
+    border: 1px solid yellow;
+    width: 30%;
+    /* text-align: center; */
+    margin: 1.5rem;
+    display: block;
+}
+
+.btc {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 1rem 0;
+}

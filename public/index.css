@@ -1,26 +1,63 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700&family=Poppins:wght@500&display=swap');
 
 
-*{
-    margin: 0;
-    padding: 0;
-    font-family: 'poppins', sans-serif;
+* {
     box-sizing: border-box;
-  }
-
-  html{
-    scroll-behavior: smooth;
-  }
-  
-  body {
     margin: 0;
     padding: 0;
-    /* background-image: url('https://e0.pxfuel.com/wallpapers/259/322/desktop-wallpaper-technology-ultra-technology.jpg');
-    background-position: center;
-    background-size: cover; */
-    background-color: rgb(0, 0, 0);
-  }
+    font-family: 'Outfit', sans-serif;
 
-  a{
+}
+
+/* body {
+    background-color: black;
+} */
+
+h1,
+h4,
+p,
+a {
+    color: #fff;
     text-decoration: none;
-  }
+}
+
+ul {
+    list-style-type: none;
+}
+
+.btn {
+    margin: 1rem 0;
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    background-color: rgb(236, 236, 11);
+    color: black;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.btn-light {
+    padding: 12px 32px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: black;
+    border: 1px solid #fff;
+    font-weight: 600;
+    cursor: pointer;    
+    background-color: transparent;
+}
+
+.btn:hover {
+    background-color: rgba(177, 177, 177, 0.336);
+    color: #fff;
+    transition: 0.3s;
+
+}
+
+.btn-light:hover {
+    background-color: rgba(177, 177, 177, 0.336);
+    color: #fff;
+    transition: 0.3s;
+
+}

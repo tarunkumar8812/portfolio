@@ -1,0 +1,65 @@
+.pricing {
+    width: 100%;
+    padding: 6re 1rem;
+    background-color: black;
+}
+
+.card-container {
+    max-width: 1140px;
+    margin: auto;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 40px;
+}
+
+.card {
+    max-width: 400px;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.card:hover {
+    background-color: black;
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    padding: 1rem;
+    color: aliceblue;
+}
+
+.card p {
+    padding: 0.2rem;
+    color: aliceblue;
+    padding: 5px 0;
+}
+
+
+.bar {
+    border-bottom: 1px solid yellow;
+    width: 30%;
+    /* text-align: center; */
+    margin: 1.5rem;
+    display: block;
+}
+
+.btc {
+    font-size: 2.5rem;
+    font-weight: 600;
+    padding: 1rem 0;
+
+}
+
+@media screen and (max-width:740px) {
+
+    .card-container {
+        max-width: 70%;
+        grid-template-columns: 1fr;
+    }
+
+}
