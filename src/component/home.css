@@ -1,0 +1,46 @@
+.home-container{
+    /* background-color: cyan; */
+    padding-left: 50px;
+    padding-top: 100px;
+    position: relative;
+}
+.home-container p{
+    font-size: 20px;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+.home-container h1{
+    font-size:50px;
+    padding-bottom: 50px;
+}
+.home-container h1::after{
+    content: 'Tarun Kumar';
+    color: red;
+}
+.home-container img{
+    position: absolute;
+    right: 0;
+}
+.btn a{
+    color: black;
+}
+.btn:hover a{
+    color: white;
+}
+
+
+@media screen and (max-width:600px) {
+
+    .home-container{
+        padding-left: 20px;
+        padding-top: 100px;
+        position: relative;
+    }
+    .home-container p{
+        font-size: 16px;
+    }
+    .home-container h1{
+        font-size:40px;
+        padding-bottom: 100px;
+    }
+}

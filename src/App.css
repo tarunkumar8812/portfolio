@@ -1,0 +1,31 @@
+.main-contanier{
+    min-height: 100vh;
+    width: 100%;
+    padding: 20px;
+    padding-top: 50px;
+    /* background:linear-gradient(90deg, rgb(65, 1, 65), rgb(0, 55, 117)); */
+    background-color: black;
+
+}
+
+#home{
+    background-image: url('https://e0.pxfuel.com/wallpapers/259/322/desktop-wallpaper-technology-ultra-technology.jpg');
+    background-position: center;
+    background-size: cover;
+}
+#about{
+    /* background-image: url('https://e0.pxfuel.com/wallpapers/259/322/desktop-wallpaper-technology-ultra-technology.jpg');
+    background-position: center;
+    background-size: cover; */
+    background-color: black;
+}
+/* #portfolio{
+    background-image: url('https://e0.pxfuel.com/wallpapers/259/322/desktop-wallpaper-technology-ultra-technology.jpg');
+    background-position: center;
+    background-size: cover;
+} */
+/* #contact{
+    background-image: url('https://e0.pxfuel.com/wallpapers/259/322/desktop-wallpaper-technology-ultra-technology.jpg');
+    background-position: center;
+    background-size: cover;
+} */

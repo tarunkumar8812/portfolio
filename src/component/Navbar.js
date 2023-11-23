@@ -1,17 +1,15 @@
 import React, { useState } from 'react'
-import { Link, NavLink } from 'react-router-dom'
-import "./navbar.css"
 import menu from "../imgs/menu.png"
 import cross from "../imgs/x-button.png"
-// import resume from "../assets/Resume.pdf"
-// import downloadIcon from "../imgs/downloadIcon.png"
+import "./navbar.css"
 
 const Navbar = () => {
 
+    const [color, setColor] = useState(false)
     const [click, setClick] = useState(false)
+
     const handleClick = () => setClick(!click)
 
-    const [color, setColor] = useState(false)
     const changeColor = () => {
         if (window.scrollY >= 1) {
             setColor(true)
@@ -22,33 +20,19 @@ const Navbar = () => {
 
     window.addEventListener("scroll", changeColor)
 
-    function mouseHover() {
-        window.document.getElementById("resume").innerHTML = "Download"
-    }
-    function leave() {
-        window.document.getElementById("resume").innerHTML = "Resume"
-    }
-
-
-
     return (
         <div className={color ? "header header-bg" : "header"}>
-            <Link to='/'>
-                <h1>Portfolio.</h1>
-            </Link>
-            <ul className={!click ? 'nav-menu' : "nav-menu avtive"} onClick={handleClick} >
-                <li><NavLink to="/home">Home</NavLink></li>
-                <li><NavLink to="/project">Project</NavLink></li>
-                <li><NavLink to="/about">About</NavLink></li>
-                <li><NavLink to="/contact">Contact</NavLink></li>
-                <li ><a id='resume' onMouseLeave={leave} onMouseOver={mouseHover}
-                    target='#'
-                    href={'https://drive.google.com/drive/u/0/folders/1nR9N7Jr1hxqxwZ1SdKv5DS0H01JrTHYS?lfhs=2'}
-                    // href={resume}
-                    download="Resume_Tarun_Kumar">Resume
-                    {/* <img className='resumePdf' src={downloadIcon} alt='download'></img> */}
-                </a></li>
+            <a href='#home'><h1 className='logo'>Tarun.</h1></a>
+            <ul
+                className={!click ? 'nav-menu' : "nav-menu avtive"}
+                onClick={handleClick} >
+              
+                <li><a href='#home'>Home</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#portfolio'>Portfolio</a></li>
+                <li><a href='#contact'>Contact</a></li>
             </ul>
+
             <div className='hamburger' onClick={handleClick} >
                 {click ? <img className='cross' src={cross} alt="cross"></img> : <img className='menu' src={menu} alt="menu"></img>}
             </div>
