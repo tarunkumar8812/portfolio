@@ -1,8 +1,12 @@
 .home-container{
-    /* background-color: cyan; */
     padding-left: 50px;
     padding-top: 100px;
+    height: 100vh;
     position: relative;
+    background-image: url('../assets/fullscreenProfilePic.png');
+    background-position: bottom;
+    background-size: cover;
+    background-color:linear-gradient(90deg, rgba(92, 1, 51, 0.3), rgba(0, 55, 117, 0.5));
 }
 .home-container p{
     font-size: 20px;
@@ -20,6 +24,7 @@
 .home-container img{
     position: absolute;
     right: 0;
+    
 }
 .btn a{
     color: black;
@@ -32,8 +37,11 @@
 @media screen and (max-width:600px) {
 
     .home-container{
+        background-image: url('../assets/mobileProfilePic.png');
+        background-position: bottom;
+        background-size: cover;
+        background-color: black;
         padding-left: 20px;
-        padding-top: 200px;
         position: relative;
     }
     .home-container p{
@@ -41,6 +49,6 @@
     }
     .home-container h1{
         font-size:40px;
-        padding-bottom: 150px;
+        padding-bottom: 50px;
     }
 }
