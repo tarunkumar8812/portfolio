@@ -7,7 +7,7 @@ const projectData = [
     {
         img: BookManagement,
         link: "https://readersclub.vercel.app/",
-        gitHubLink: "https://github.com/tarunkumar8812/Online-Book-Store/tree/main/readersclub-client",
+        gitHubLink: "https://github.com/tarunkumar8812/Online-Book-Store",
         title: "Online Book Store",
         desc: "Created an FullStack Book Management website's backend partwith multiple APIs based on products, users, books and auther. Here use JWT authentication for protected APIs and also use AWS. Like kindle.",
         stack: "Tech Stack: JavaScript, NodeJS, ReactJs, MongoDB."
